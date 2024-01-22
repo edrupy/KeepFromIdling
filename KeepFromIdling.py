@@ -7,8 +7,10 @@ WaitTime = 3*59
 
 def Execute():
     while True:
-        print('press F19 in 1 sec')
-        pyautogui.hotkey('f19')
+        print('press numlock x2 in 1 sec')
+        time.sleep(1)
+        pyautogui.hotkey('numlock')
+        pyautogui.hotkey('numlock')
         time.sleep(WaitTime)
 
 
