@@ -7,9 +7,9 @@ WaitTime = 3*59
 
 def Execute():
     while True:
+        print('press F19 in 1 sec')
+        pyautogui.hotkey('f19')
         time.sleep(WaitTime)
-        print('press F15 in 1 sec')
-        pyautogui.hotkey('f15')
 
 
 if __name__ == '__main__':
